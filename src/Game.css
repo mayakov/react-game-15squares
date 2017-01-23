@@ -1,0 +1,88 @@
+.game {
+    width: 400px;
+    margin: 120px auto 0 auto;
+}
+
+.board {
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    border: 3px ridge rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 10px #888888;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    
+    box-sizing: border-box;
+    float: left;
+}
+
+.square-digit {
+    color: #bbb;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 100px;
+    cursor: pointer;
+    
+    background-image: url("../public/square-button.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tools {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 7px;
+    width: 130px;
+    display: inline-block;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #4eb6d2;
+}
+
+.btn-blue:hover {
+    background-color: #7bc3d6;
+}
+
+.btn-grey {
+    background-color: #bbbbbb;
+}
+
+.btn-grey:hover {
+    background-color: #d6d6d6;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.info-box {
+    text-align: left;
+    margin-top: 20px;
+    color: grey;
+}
+
+.info-box div{
+    display: inline-block;
+}
+
+.info-time {
+    float: right;
+}
